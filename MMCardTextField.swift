@@ -46,6 +46,7 @@ public class MMCardTextField: UITextField, UITextFieldDelegate {
     // MARK: - Private Helpers
     private func prepareTextField() {
         self.delegate = self
+        self.type
         setupCardImageView()
     }
     
